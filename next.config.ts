@@ -19,6 +19,8 @@ const nextConfig: NextConfig = {
   // Produce a self-contained server bundle (.next/standalone) so the desktop
   // (Electron) build can launch the app without the full project tree.
   output: "standalone",
+  // Keep AGENTS.md as Sanctum's own harness doc; do not append Next's block.
+  agentRules: false,
   env: { NEXT_PUBLIC_SANCTUM_VERSION: version },
   // The player view is meant to be opened from phones on the same Wi-Fi, which
   // means the dev server gets requests from http://<lan-ip>:<port> rather than

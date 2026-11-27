@@ -49,7 +49,7 @@ Aligned with root `README.md`, `DESIGN.md`, and `new-user-onboarding.md`.
 
 ## Assumptions & dependencies
 
-- Node 20+ for source builds; native toolchain only if `better-sqlite3` lacks a prebuild.
+- Node 22.14+ for source builds; native toolchain only if `better-sqlite3` lacks a prebuild.
 - Players and DM share a local network when using phone player view.
 - SRD content licensing remains CC-BY attribution as documented in README.
 

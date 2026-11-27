@@ -3,9 +3,9 @@
  * drawn inside Leaflet marker HTML, the React UI, and the standalone HTML
  * export (which has no React).
  *
- * Generated once from lucide-react 1.21.0
- * (ISC licence, https://lucide.dev). To add an icon, copy its `__iconNode`
- * from node_modules/lucide-react/dist/esm/icons/<name>.mjs.
+ * Generated once from lucide-react (ISC licence, https://lucide.dev).
+ * To add an icon, copy its `__iconNode` from
+ * node_modules/lucide-react/dist/esm/icons/<name>.mjs.
  */
 
 export type AtlasIconNode = [tag: string, attrs: Record<string, string>][];

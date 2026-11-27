@@ -33,14 +33,14 @@
     "@dnd-kit/utilities": "^3.2.2",
     "@tanstack/react-virtual": "^3.14.17",
     "@xyflow/react": "^12.11.2",
-    "better-sqlite3": "^12.11.1",
+    "better-sqlite3": "^13.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.4.0",
     "drizzle-orm": "^0.45.2",
     "konva": "^10.3.0",
     "leaflet": "^1.9.4",
-    "lucide-react": "^1.21.0",
+    "lucide-react": "^1.81.0",
     "next": "16.4.6",
     "pdf-lib": "^1.17.1",
     "pdfjs-dist": "^6.2.108",
@@ -74,6 +74,8 @@
   },
   "overrides": {
     "esbuild": "0.28.1",
+    "@esbuild-kit/esm-loader": "npm:tsx@4.22.4",
+    "global-agent": "4.1.8",
     "app-builder-lib": {
       "minimatch": "11.0.9"
     },
@@ -83,9 +85,12 @@
   },
   "allowScripts": {
     "esbuild@0.28.1": true,
-    "better-sqlite3@12.11.1": true,
     "electron-winstaller@5.4.0": true,
     "sharp@0.35.5": true,
-    "unrs-resolver@1.12.2": true
+    "unrs-resolver@1.12.2": true,
+    "better-sqlite3@13.2.0": true
+  },
+  "engines": {
+    "node": ">=22.14.0"
   }
 }

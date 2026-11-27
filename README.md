@@ -71,7 +71,7 @@ Prefer to run it from source? See [Getting started](#getting-started).
 
 ## Prerequisites
 
-- **Node.js 20 or later** ([download](https://nodejs.org)). Check with `node -v`.
+- **Node.js 22.14 or later** ([download](https://nodejs.org)). Check with `node -v`.
 - **npm** (bundled with Node).
 
 > `better-sqlite3` is a native module. It ships prebuilt binaries for common platforms, so `npm install` usually just works. If your platform has no prebuilt binary, you'll also need standard build tools (on Windows: the "Desktop development with C++" workload from Visual Studio Build Tools; on macOS: Xcode Command Line Tools; on Linux: `build-essential` + `python3`).

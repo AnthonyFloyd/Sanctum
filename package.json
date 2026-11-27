@@ -41,7 +41,7 @@
     "konva": "^10.3.0",
     "leaflet": "^1.9.4",
     "lucide-react": "^1.21.0",
-    "next": "16.2.9",
+    "next": "16.4.6",
     "pdf-lib": "^1.17.1",
     "pdfjs-dist": "^6.2.108",
     "qrcode": "^1.5.4",
@@ -63,13 +63,29 @@
     "@types/qrcode": "^1.5.6",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "drizzle-kit": "^0.31.10",
+    "drizzle-kit": "^0.31.11",
     "electron": "^42.7.1",
-    "electron-builder": "^26.15.3",
+    "electron-builder": "^26.18.1",
     "eslint": "^9",
-    "eslint-config-next": "16.2.9",
+    "eslint-config-next": "16.4.6",
     "tailwindcss": "^4",
     "tsx": "^4.22.4",
     "typescript": "^5"
+  },
+  "overrides": {
+    "esbuild": "0.28.1",
+    "app-builder-lib": {
+      "minimatch": "11.0.9"
+    },
+    "@electron/universal": {
+      "minimatch": "11.0.9"
+    }
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "better-sqlite3@12.11.1": true,
+    "electron-winstaller@5.4.0": true,
+    "sharp@0.35.5": true,
+    "unrs-resolver@1.12.2": true
   }
 }
